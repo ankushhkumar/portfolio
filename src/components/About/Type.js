@@ -8,8 +8,7 @@ function Type() {
         strings: [
           "Software Engineer",
           "Android Developer",
-          "Web Developer",
-          "Open Source Contributor",
+          "Web Developer"
         ],
         autoStart: true,
         loop: true,

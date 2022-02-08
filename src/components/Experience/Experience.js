@@ -2,6 +2,7 @@ import React from "react";
 import { Container } from "react-bootstrap";
 import Particle from "../Particle";
 import ExperienceCard from "./ExperienceCards";
+import { height } from "dom-helpers";
 
 function Experience() {
   return (
@@ -28,11 +29,23 @@ function Experience() {
         <ExperienceCard
           title="PetroWagon"
           position="Android Developer"
-          timePeriod="January 2020 - April 2020"
+          timePeriod="August 2019 - January 2020"
           description1="Developed an Android App from scratch using Java and XML for a fuel delivery-based startup allowing simultaneous multiple orders"
           description2="Pioneered company’s successful pilot project and started with making beta version of the application"
           description3="Maintained clean and structured code using MVVM architecture to enhance reusability and optimized performance"
           description4="Built onboarding flow to collect user information for customized suggestions"
+          linkProject="https://github.com/ankush7kumar"
+        />
+
+        <div style={{ paddingTop: 40}}></div>
+        <ExperienceCard
+          title="TechT Solutions"
+          position="Quality Assurance Analyst"
+          timePeriod="January 2019 - April 2020"
+          description1="Effectively wrote clean and reusable code for designing templates for clients and performed troubleshooting"
+          description2="Wrote to over 40 UI automation tests and debugged UI/UX issues, ensuring 100% compliance with quality"
+          description3="Assist efforts to install and set-up instrumentation at the sites to log data and execute the tests as directed"
+          description4="Provide general status and information about specific project risks to the Manager"
           linkProject="https://github.com/ankush7kumar"
         />
         <div style={{ paddingTop: 40 }}></div>
