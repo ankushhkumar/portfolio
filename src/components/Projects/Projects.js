@@ -8,6 +8,7 @@ import socaCricketLogo from "../../Assets/Projects/socaCricketLogo.png";
 import algorithms from "../../Assets/Projects/algorithms.jpg";
 import healthy from "../../Assets/Projects/healthy.jpg";
 import Chess from "../../Assets/Projects/chess.jpg";
+import battleshipImage from '../../Assets/Projects/battleshipphoto.jpg'
 
 
 function Projects() {
@@ -23,7 +24,16 @@ function Projects() {
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
 
-       
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={battleshipImage}
+              isBlog={false}
+              hasWebsite={false}
+              title="Battleship"
+              description="Created a game of battleship, that could be played between the user and the computer, using user interface concepts such as Graphics, Animation, Hit-Testing, and Transformations. The game is written using the Model-View-Controller design pattern. It is a desktop operating system application written in Kotlin using the JavaFX toolkit."
+              linkProject="https://github.com/Ankush7Kumar/The-Game-of-Battleship"
+            />
+          </Col>
 
         <Col md={4} className="project-card">
             <ProjectCard
