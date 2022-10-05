@@ -9,7 +9,7 @@ import algorithms from "../../Assets/Projects/algorithms.jpg";
 import healthy from "../../Assets/Projects/healthy.jpg";
 import Chess from "../../Assets/Projects/chess.jpg";
 import battleshipImage from '../../Assets/Projects/battleshipphoto.jpg'
-
+import virtualhausImage from '../../Assets/Projects/virtualhausimage.jpg'
 
 function Projects() {
   return (
@@ -23,6 +23,20 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+
+
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={virtualhausImage}
+              isBlog={false}
+              hasWebsite={false}
+              title="VirtualHaus"
+              description="Designed and developed an android application written using Kotlin following MVVM design pattern. The app lets you create a house and afterwards, keep track of items in the kitchen, book quiet times, add events happening in future, check expenses, check laundry availability and more. Architectured using Client-Server model where the live data is handled through Firebase Realtime Database."
+              linkProject="https://github.com/Ankush7Kumar/VirtualHaus"
+            />
+          </Col>
+
+
 
         <Col md={4} className="project-card">
             <ProjectCard
@@ -41,7 +55,7 @@ function Projects() {
               isBlog={false}
               hasWebsite={true}
               title="SOCA-Cricket"
-              description="Created an interactive fully responsive website from scratch using react designed for Southern Ontario Cricket League played by 16 teams every season. It displays all the information about the association and the events that takes place in the league. Implemented user centered design using react bootstrap and CSS while also applying multi-page layout and DRY principle."
+              description="Developed an interactive fully responsive website from scratch using react designed for Southern Ontario Cricket League played by 16 teams every season. It displays all the information about the association and the events that takes place in the league. Implemented user centered design using react bootstrap and CSS while also applying multi-page layout and DRY principle."
               linkProject="https://github.com/Ankush7Kumar/SOCA-Cricket"
               link="http://www.socacricket.com"
             />

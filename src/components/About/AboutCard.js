@@ -8,7 +8,7 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            I'm an Honors Computer Science student currently pursuing undergraduate degree at the <span className="purple">University of Waterloo. </span>
+            I recently graduated from the <span className="purple">University of Waterloo </span> with an undergraduate degree in Honors Computer Science.
           I love working on projects such as Mobile Apps and Web Apps, from design to development. In my spare time I like to learn more about algorithms, and blockchains.
             <br />
             <br />
