@@ -76,7 +76,7 @@ function About2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="mailto:ankushchhokar7906@gmail.com"
+                  href="mailto:a227kuma@uwaterloo.ca"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"

@@ -23,18 +23,13 @@ function Github() {
   
 
   return (
-    <Row style={{ justifyContent: "center",paddingTop:"150px", paddingBottom: "30px" }}>
+   
+   <Row style={{ justifyContent: "center",paddingTop:"150px", paddingBottom: "30px" }}>
       <h1 className="project-heading" style={{ paddingBottom: "20px" }}>
-        Github <strong className="purple">Calendar</strong>
+        Thanks for <strong className="purple">Visiting!</strong>
       </h1>
-      <GitHubCalendar
-        username="ankush7kumar"
-        // blockSize={15}
-        // blockMargin={5}
-        // theme={colourTheme}
-        // fontSize={16}
-      />
     </Row>
+    
   );
 }
 

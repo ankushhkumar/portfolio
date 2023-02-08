@@ -16,12 +16,12 @@ function Skills() {
           <Card.Body>
             <Card.Text style={{ textAlign: "justify" }}>
               <strong>Languages</strong>
-              <div style={{ marginBottom: 20 }}> Python • C++ • Java • Kotlin • Golang • C • JavaScript • SQL • Scheme • HTML/CSS </div>
-              <strong>Tools</strong>
-              <div > Git • Android Studio • React • Bash • Docker • Heroku • Node.js • JavaFX </div>
+              <div style={{ marginBottom: 20 }}> Python, C++, Java, XML, Kotlin, C, JavaScript, SQL, Scheme, CSS </div>
+              <strong>Tools / Databases / Frameworks / Libraries</strong>
+              <div > React, Redux, Node.js, Spring Boot, MySQL, OracleDB, Firebase, Hibernate, Git, Bash, Docker, Heroku </div>
               
             </Card.Text>
-          </Card.Body>
+          </Card.Body> 
         </Card>
         <Github className="about-section" />
       </Container>

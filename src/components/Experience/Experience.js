@@ -13,6 +13,18 @@ function Experience() {
           Experience
         </h1>
 
+        <div style={{ paddingTop: 40}}></div>
+        <ExperienceCard
+          title="NexDew Technologies"
+          position="Software Developer"
+          timePeriod="September 2021 - January 2023"
+          description1="Contributed to the development of RESTful APIs and key features of various web applications"
+          description2="Enhanced response time by 15% and significantly improved web functionality by performing detailed reviews"
+          description3="Worked with Hibernate ORM and Spring Boot framework in Java using MySQL database"
+          description4="Instrumented code over 3 work streams in a Microservice architecture"
+          linkProject="https://github.com/ankush7kumar"
+        />
+
         <div style={{ paddingTop: 50 }}></div>
         <ExperienceCard
           title="SOCA"
@@ -20,34 +32,24 @@ function Experience() {
           timePeriod="June 2021 - August 2021"
           description1="Created an interactive fully responsive website from scratch using react designed for an Ontario Cricket League played by 16 teams"
           description2="Enhanced load time by 15% by implementing website’s state using redux library and lazy loading pattern for the images"
-          description3="Wrote clean, efficient, and easily testable code by incorporating website architecture and following good code practices"
-          description4="Implemented user-centered design using React-Bootstrap and CSS while also applying multi-page layout and DRY principle"
+          description3="Implemented user-centered design, applied multi-page layout, DRY principle using React-Bootstrap and CSS"
+          description4="Built a scalable UI capable of handling big traffic load by reducing UI re-renderings which decreased data processing cost by 20%"
           linkProject="https://github.com/ankush7kumar"
         />
 
         <div style={{ paddingTop: 40 }}></div>
         <ExperienceCard
           title="PetroWagon"
-          position="Android Developer"
+          position="Software Engineer"
           timePeriod="August 2019 - January 2020"
           description1="Developed an Android App from scratch using Java and XML for a fuel delivery-based startup allowing simultaneous multiple orders"
-          description2="Pioneered company’s successful pilot project and started with making beta version of the application"
-          description3="Maintained clean and structured code using MVVM architecture to enhance reusability and optimized performance"
-          description4="Built onboarding flow to collect user information for customized suggestions"
+          description2="Programmed app’s local database using Android Room and implemented SQL queries to store mutable live data"
+          description3="Built onboarding flow to collect user information for customized suggestions"
+          description4="Maintained structured code using MVVM architecture to enhance reusability and optimized app performance"
           linkProject="https://github.com/ankush7kumar"
         />
 
-        <div style={{ paddingTop: 40}}></div>
-        <ExperienceCard
-          title="TechT Solutions"
-          position="Quality Assurance Analyst"
-          timePeriod="January 2019 - April 2020"
-          description1="Effectively wrote clean and reusable code for designing templates for clients and performed troubleshooting"
-          description2="Wrote to over 40 UI automation tests and debugged UI/UX issues, ensuring 100% compliance with quality"
-          description3="Assist efforts to install and set-up instrumentation at the sites to log data and execute the tests as directed"
-          description4="Provide general status and information about specific project risks to the Manager"
-          linkProject="https://github.com/ankush7kumar"
-        />
+        
         <div style={{ paddingTop: 40 }}></div>
         <ExperienceCard
           title="ICSD Tech Labs"
