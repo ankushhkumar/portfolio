@@ -17,7 +17,7 @@ function Experience() {
         <ExperienceCard
           title="NexDew Technologies"
           position="Software Developer"
-          timePeriod="September 2021 - January 2023"
+          timePeriod="November 2022 - January 2024"
           description1="Contributed to the development of RESTful APIs and key features of various web applications"
           description2="Enhanced response time by 15% and significantly improved web functionality by performing detailed reviews"
           description3="Worked with Hibernate ORM and Spring Boot framework in Java using MySQL database"
@@ -29,7 +29,7 @@ function Experience() {
         <ExperienceCard
           title="SOCA"
           position="Web Developer"
-          timePeriod="June 2021 - August 2021"
+          timePeriod="May 2021 - August 2021"
           description1="Created an interactive fully responsive website from scratch using react designed for an Ontario Cricket League played by 16 teams"
           description2="Enhanced load time by 15% by implementing website’s state using redux library and lazy loading pattern for the images"
           description3="Implemented user-centered design, applied multi-page layout, DRY principle using React-Bootstrap and CSS"
