@@ -66,7 +66,7 @@ function About2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/ankushkumar7906/"
+                  href="https://www.linkedin.com/in/ankush7kumar/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
