@@ -11,19 +11,19 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v3  # Updated to v3 to ensure compatibility
 
       - name: Setup Node.js
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v3  # Updated to v3 to ensure compatibility
         with:
-          node-version: '20'
+          node-version: '20'  # Explicitly specify Node.js version 20
 
       - name: Install dependencies
         run: npm install
 
       - name: Build
         env:
-          CI: false
+          CI: false  # Set CI to false to prevent warnings from being treated as errors
         run: npm run build
 
       - name: Deploy to GitHub Pages
