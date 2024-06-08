@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.583bceeb.chunk.css",
-    "main.js": "/portfolio/static/js/main.0e3bed29.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.0e3bed29.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.3910f787.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.3910f787.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.12149edc.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.12149edc.js.map",
     "static/css/2.dc3c9708.chunk.css": "/portfolio/static/css/2.dc3c9708.chunk.css",
@@ -22,7 +22,7 @@
     "static/media/style.css": "/portfolio/static/media/pre.52b21233.svg",
     "static/media/home-main.541f8179.svg": "/portfolio/static/media/home-main.541f8179.svg",
     "static/media/rayTracer.23e43f7d.jpg": "/portfolio/static/media/rayTracer.23e43f7d.jpg",
-    "static/media/resume.b1b2fe48.pdf": "/portfolio/static/media/resume.b1b2fe48.pdf",
+    "static/media/resume.4cba0d1c.pdf": "/portfolio/static/media/resume.4cba0d1c.pdf",
     "static/media/socaCricketLogo.1fd1c0bb.png": "/portfolio/static/media/socaCricketLogo.1fd1c0bb.png",
     "static/media/virtualhausimage.fb714998.jpg": "/portfolio/static/media/virtualhausimage.fb714998.jpg"
   },
@@ -31,6 +31,6 @@
     "static/css/2.dc3c9708.chunk.css",
     "static/js/2.64459be5.chunk.js",
     "static/css/main.583bceeb.chunk.css",
-    "static/js/main.0e3bed29.chunk.js"
+    "static/js/main.3910f787.chunk.js"
   ]
 }
