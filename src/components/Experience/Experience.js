@@ -17,7 +17,7 @@ function Experience() {
           title="NexDew Technologies"
           position="Software Developer"
           timePeriod="November 2022 - January 2024"
-          description1="Contributed to the development of RESTful APIs and key features of various web applications"
+          description1="Developed and maintained 30 RESTful API endpoints, including CRUD operations, and user authentication"
           description2="Enhanced response time by 15% and significantly improved web functionality by performing detailed reviews"
           description3="Worked with Hibernate ORM and Spring Boot framework in Java using MySQL database"
           description4="Instrumented code over 3 work streams in a Microservice architecture"
