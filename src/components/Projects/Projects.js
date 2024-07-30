@@ -10,6 +10,9 @@ import healthy from "../../Assets/Projects/healthy.jpg";
 import Chess from "../../Assets/Projects/chess.jpg";
 import battleshipImage from '../../Assets/Projects/battleshipphoto.jpg'
 import virtualhausImage from '../../Assets/Projects/virtualhausimage.jpg'
+import CatsVsDogs from '../../Assets/Projects/catsvsdogs.jpg'
+import BookYourShow from '../../Assets/Projects/bookyourshow.png'
+import Wallet from '../../Assets/Projects/wallet.jpg'
 
 function Projects() {
   return (
@@ -24,7 +27,39 @@ function Projects() {
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
 
+        <Col md={4} className="project-card"> 
+            <ProjectCard
+              imgPath={CatsVsDogs}
+              isBlog={false}
+              hasWebsite={false}
+              title="CatsVsDogs"
+              description="A simple computer vision classification model that predicts if the object in the image is a cat or a dog. Using FastAI library and a pretrained model - resnet34 (a state-of-the-art image classification model, structured as a 34 layer convolutional neural network). The database contains 7390 images including images of both dogs and cats, which is taken from The Oxford-IIIT Pet Dataset."
+              linkProject="https://github.com/Ankush7Kumar/CatsVsDogs"
+            />
+          </Col>
 
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Wallet}
+              isBlog={false}
+              hasWebsite={false}
+              title="Wallet"
+              description="Created web application for user registration, authentication, fund transfers, withdrawals, and deposits. Implemented core features using Servlets, Sessions, Persistence API, and Hibernate ORM. Managed MySQL database for secure and efficient data storage and retrieval operations.                                                                                                         "
+              linkProject="https://github.com/Ankush7Kumar/Wallet"
+            />  
+          </Col>
+
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={BookYourShow}
+              isBlog={false}
+              hasWebsite={false}
+              title="BookYourShow"
+              description="A clone of BookMyShow website. Developed a movie booking platform with Servlets, enabling admin movie management and customer bookings. Implemented seat selection and ticket printing features using HTTP methods and login using Sessions.                                                                                                                                                     "
+              linkProject="https://github.com/Ankush7Kumar/BookYourShow"
+            />
+          </Col>
+        
         <Col md={4} className="project-card">
             <ProjectCard
               imgPath={virtualhausImage}
@@ -100,7 +135,7 @@ function Projects() {
               isBlog={false}
               hasWebsite={false}
               title="Algorithms"
-              description="Wrote various algorithms just for fun as I am extremely interested in this field.                                                                                                                                           "
+              description="Wrote various algorithms just for fun as I am extremely interested in this field."
               linkProject="https://github.com/Ankush7Kumar/Algorithms/tree/main/questions"
             />
           </Col>
