@@ -33,7 +33,7 @@ function Projects() {
               isBlog={false}
               hasWebsite={false}
               title="CatsVsDogs"
-              description="A simple computer vision classification model that predicts if the object in the image is a cat or a dog. Using FastAI library and a pretrained model - resnet34 (a state-of-the-art image classification model, structured as a 34 layer convolutional neural network). The database contains 7390 images including images of both dogs and cats, which is taken from The Oxford-IIIT Pet Dataset."
+              description="A simple computer vision classification model that predicts if the object in the image is a cat or a dog. Using FastAI library and a pretrained model - ResNet34. The database contains 7390 images containing images of dogs and cats, which is taken from The Oxford-IIIT Pet Dataset."
               linkProject="https://github.com/Ankush7Kumar/CatsVsDogs"
             />
           </Col>
@@ -44,7 +44,7 @@ function Projects() {
               isBlog={false}
               hasWebsite={false}
               title="Wallet"
-              description="Created web application for user registration, authentication, fund transfers, withdrawals, and deposits. Implemented core features using Servlets, Sessions, Persistence API, and Hibernate ORM. Managed MySQL database for secure and efficient data storage and retrieval operations.                                                                                                         "
+              description="Created web application for user registration, authentication, fund transfers, withdrawals, and deposits. Implemented core features using Servlets, Sessions, Persistence API, and Hibernate ORM. Managed MySQL database for secure and efficient data storage and retrieval operations."
               linkProject="https://github.com/Ankush7Kumar/Wallet"
             />  
           </Col>
@@ -55,7 +55,7 @@ function Projects() {
               isBlog={false}
               hasWebsite={false}
               title="BookYourShow"
-              description="A clone of BookMyShow website. Developed a movie booking platform with Servlets, enabling admin movie management and customer bookings. Implemented seat selection and ticket printing features using HTTP methods and login using Sessions.                                                                                                                                                     "
+              description="A clone of BookMyShow website. Developed a movie booking platform with Servlets, enabling admin movie management and customer bookings. Implemented seat selection and ticket printing features using HTTP methods and login using Sessions. Admins can add shows & customers can book them."
               linkProject="https://github.com/Ankush7Kumar/BookYourShow"
             />
           </Col>
