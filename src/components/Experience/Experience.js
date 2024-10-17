@@ -14,6 +14,18 @@ function Experience() {
 
         <div style={{ paddingTop: 40}}></div>
         <ExperienceCard
+          title="BH Frontier Solutions Inc"
+          position="Computer Vision R&D Engineer"
+          timePeriod="July 2024 - Present"
+          description1="Utilized PyTorch to develop and optimize computer vision models, enhancing accuracy and processing efficiency significantly"
+          description2="Implemented data augmentation and pre-processing techniques to improve dataset quality for robust model training outcomes"
+          description3="Managed the complete model training pipeline, focusing on hyperparameter tuning and validation for optimal performance"
+          description4="Conducted model performance testing and refined approaches, ensuring high reliability and reduced inference time effectively"
+          linkProject="https://github.com/ankush7kumar"
+        />
+        
+        <div style={{ paddingTop: 40}}></div>
+        <ExperienceCard
           title="NexDew Technologies"
           position="Software Developer"
           timePeriod="November 2022 - January 2024"
