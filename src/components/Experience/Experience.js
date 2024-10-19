@@ -23,6 +23,18 @@ function Experience() {
           description4="Conducted model performance testing and refined approaches, ensuring high reliability and reduced inference time effectively"
           linkProject="https://github.com/ankush7kumar"
         />
+
+        <div style={{ paddingTop: 40}}></div>
+        <ExperienceCard
+          title="ProgramPro"
+          position="Software Developer"
+          timePeriod="January 2024 - July 2024"
+          description1="Collaborated with the team to design authentication services using role-based access control and OAuth 2.0."
+          description2="Incorporated JWT methods with NextAuth, enhancing security protocols, and resulting in faster 20% login speeds."
+          description3="Engineered scalable backend solutions with MongoDB, improving system throughput by 15% for course management."
+          description4="Optimized 10+ RESTful APIs and integrated Stripe for payments, boosting latency optimization by 23%."
+          linkProject="https://github.com/ankush7kumar"
+        />
         
         <div style={{ paddingTop: 40}}></div>
         <ExperienceCard
