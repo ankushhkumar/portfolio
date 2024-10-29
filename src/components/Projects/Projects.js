@@ -13,9 +13,10 @@ import virtualhausImage from '../../Assets/Projects/virtualhausimage.jpg'
 import CatsVsDogs from '../../Assets/Projects/catsvsdogs.jpg'
 import BookYourShow from '../../Assets/Projects/bookyourshow.png'
 import Wallet from '../../Assets/Projects/wallet.jpg'
+import vmnexus from '../../Assets/Projects/vmnexusimage.jpeg'
 
 function Projects() {
-  return (
+  return ( 
     <Container fluid className="project-section">
       <Particle />
       <Container>
@@ -27,6 +28,17 @@ function Projects() {
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
 
+        <Col md={4} className="project-card"> 
+            <ProjectCard
+              imgPath={vmnexus}
+              isBlog={false}
+              hasWebsite={false}
+              title="VM Nexus"
+              description="Engineered VM Nexus, a Dockerized full-stack app for VM management using Django and ReactJS. Integrated Docker, REST API & Webpack for seamless frontend-backend connectivity and CRUD operations. Enhanced security with SSH key fields, enabling scalable, dynamic VM data management on UI."
+              linkProject="https://github.com/Ankush7Kumar/VM-Nexus"
+            />
+          </Col>
+        
         <Col md={4} className="project-card"> 
             <ProjectCard
               imgPath={CatsVsDogs}
