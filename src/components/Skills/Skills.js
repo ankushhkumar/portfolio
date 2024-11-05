@@ -18,9 +18,9 @@ function Skills() {
               <strong>Languages</strong>
               <div style={{ marginBottom: 20 }}> Python, C++, Java, XML, Kotlin, C, JavaScript, SQL, Bash, Scheme, CSS </div>
               <strong>Databases and Tools</strong>
-              <div > MySQL, OracleDB, Firebase Realtime, MongoDB, Redis, SQLLite, PostgreSQL, Git, Docker, Maven, Postman, Jupyter Notebook, JSON, Microsoft Azure Cloud, AWS </div>
+              <div style={{ marginBottom: 20 }}> MySQL, OracleDB, Firebase Realtime, MongoDB, Redis, SQLLite, PostgreSQL, Git, Docker, Maven, Postman, Jupyter Notebook, JSON, Microsoft Azure Cloud, AWS </div>
               <strong>Framework and Libraries</strong>
-              <div > React, Redux, Node.js, Spring Boot, Android, Prisma, PyTorch, Django, ReactJS </div>
+              <div style={{ marginBottom: 20 }}> React, Redux, Node.js, Spring Boot, Android, Prisma, PyTorch, Django, ReactJS </div>
               <strong>Architecture Styles</strong>
               <div > Client-Server, MVC, MVVM, Microservices, HTTP </div>
               
