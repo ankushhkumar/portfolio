@@ -14,9 +14,21 @@ function Experience() {
 
         <div style={{ paddingTop: 40}}></div>
         <ExperienceCard
+          title="ASAP Data Solutions Ltd."
+          position="Full Stack Developer - Freelance"
+          timePeriod="December 2024"
+          description1="Developed a tool from scratch to extract product specifications from fully rendered HTMLs using Playwright automation"
+          description2="Performed dynamic web scraping on client-side pages to collect structured product-related content efficiently"
+          description3="Utilized OpenAI’s function calling feature in JSON mode to analyze and understand product descriptions"
+          description4="Parsed extracted data into clean, structured specifications for downstream processing or display in applications"
+          linkProject="https://github.com/ankush7kumar"
+        />
+
+        <div style={{ paddingTop: 40}}></div>
+        <ExperienceCard
           title="BH Frontier Solutions Inc"
           position="Computer Vision R&D Engineer"
-          timePeriod="July 2024 - Present"
+          timePeriod="July 2024 - November 2024"
           description1="Utilized PyTorch to develop and optimize computer vision models, enhancing accuracy and processing efficiency significantly"
           description2="Implemented data augmentation and pre-processing techniques to improve dataset quality for robust model training outcomes"
           description3="Managed the complete model training pipeline, focusing on hyperparameter tuning and validation for optimal performance"

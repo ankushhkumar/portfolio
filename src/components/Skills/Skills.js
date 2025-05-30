@@ -16,9 +16,9 @@ function Skills() {
           <Card.Body>
             <Card.Text style={{ textAlign: "justify" }}>
               <strong>Languages</strong>
-              <div style={{ marginBottom: 20 }}> Python, C++, Java, XML, Kotlin, C, JavaScript, SQL, Bash, Scheme, CSS </div>
+              <div style={{ marginBottom: 20 }}> Python, C++, Java, XML, Kotlin, C, JavaScript, Typescript, SQL, Bash, Scheme, CSS </div>
               <strong>Databases and Tools</strong>
-              <div style={{ marginBottom: 20 }}> MySQL, OracleDB, Firebase Realtime, MongoDB, Redis, SQLLite, PostgreSQL, Git, Docker, Maven, Postman, Jupyter Notebook, JSON, Microsoft Azure Cloud, AWS </div>
+              <div style={{ marginBottom: 20 }}> MySQL, Oracle DB, Firebase Realtime, MongoDB, Redis, SQLLite, PostgreSQL, Git, Docker, Maven, Tomcat, Postman, Jupyter Notebook, JSON, CI/CD using GitHub Actions, Microsoft Azure Cloud, AWS </div>
               <strong>Framework and Libraries</strong>
               <div style={{ marginBottom: 20 }}> React, Redux, Node.js, Spring Boot, Android, Prisma, PyTorch, Django, ReactJS </div>
               <strong>Architecture Styles</strong>

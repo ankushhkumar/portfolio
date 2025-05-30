@@ -8,7 +8,7 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            I recently graduated from the <span className="purple">University of Waterloo </span> with an undergraduate degree in Honors Computer Science.
+            I graduated from the <span className="purple">University of Waterloo </span> with an undergraduate degree in Honors Computer Science.
           I love working on projects such as Web Apps and Mobile Apps, from design to development. In my spare time I like to learn more about algorithms.
             <br />
             <br />
@@ -16,16 +16,16 @@ function AboutCard() {
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Algorithms driving Automation
+              <ImPointRight /> AI Agents
             </li>
             <li className="about-activity">
-              <ImPointRight /> Cyber Security
+              <ImPointRight /> RAG Systems
             </li>
             <li className="about-activity">
               <ImPointRight /> Operating Systems
             </li>
             <li className="about-activity">
-              <ImPointRight /> Low Level Developments
+              <ImPointRight /> Low Level Development
             </li>
           </ul>
 
